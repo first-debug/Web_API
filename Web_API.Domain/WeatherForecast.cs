@@ -1,4 +1,4 @@
-namespace Web_API
+namespace Web_API.Domain
 {
     public class WeatherForecast
     {

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_API", "Web_API\Web_API.csproj", "{2A2CD490-15D7-4DC7-8A31-C216885C08D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web_API.API", "Web_API\Web_API.API.csproj", "{2A2CD490-15D7-4DC7-8A31-C216885C08D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_API.Domain", "Web_API.Domain\Web_API.Domain.csproj", "{7C8E0FEE-2251-416B-A048-BAE938D1C932}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web_API.Domain", "Web_API.Domain\Web_API.Domain.csproj", "{7C8E0FEE-2251-416B-A048-BAE938D1C932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_API.Infrastructure", "Web_API.Infrastructure\Web_API.Infrastructure.csproj", "{8CDB82E0-71CD-4B53-B691-C0302DE72B00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web_API.Infrastructure", "Web_API.Infrastructure\Web_API.Infrastructure.csproj", "{8CDB82E0-71CD-4B53-B691-C0302DE72B00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
