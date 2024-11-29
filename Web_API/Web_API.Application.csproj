@@ -4,6 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Web_API.API</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,8 +20,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Web_API.Domain\Web_API.Domain.csproj" />
+    <ProjectReference Include="..\Web_API.Domains\Web_API.Domains.csproj" />
     <ProjectReference Include="..\Web_API.Infrastructure\Web_API.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="DTO\" />
   </ItemGroup>
 
 </Project>

@@ -3,7 +3,7 @@ using Web_API.Infrastructure.Data;
 
 namespace Web_API.API
 {
-    public class Program
+    public class Application
     {
         public static void Main(string[] args)
         {
