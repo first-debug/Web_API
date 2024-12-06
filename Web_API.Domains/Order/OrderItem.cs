@@ -1,9 +1,14 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Web_API.Domain.Order;
 
-public class OrderItem(string title, decimal amount)
+public class OrderItem
 {
-    public Guid Id { get; init; } = Guid.NewGuid();
-    public string Title { get; init; } = title;
-    public decimal Amount { get; init; } = amount;
+    [Key]
+    public int Id { get; set; }
+    public Guid ItemId { get; set; }
+    public string Title { get; set; } = string.Empty;
+    public decimal Amount { get; set; }
+    public Guid OrderId { get; set; }
 
 }
